@@ -1,0 +1,6 @@
+steps:
+- id: "Deploy to AppEngine"
+  name: 'gcr.io/cloud-builders/gcloud'
+  args: ['app', 'deploy']
+  dir: 'Front-End-AppEngine'
+timeout: '1600s'
