@@ -1,6 +1,6 @@
 runtime: nodejs8
 api_version: 1
-service: frontend
+service: frontends
 
 handlers:
 - url: /
